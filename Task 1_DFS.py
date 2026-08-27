@@ -20,3 +20,19 @@ def dfs(node):
 
 print("DFS Traversal:", end=" ")
 dfs(start)
+
+Output:
+
+Enter number of vertices: 5
+Enter vertex: A
+Enter adjacent vertices separated by space: B C
+Enter vertex: B
+Enter adjacent vertices separated by space: A D E
+Enter vertex: C
+Enter adjacent vertices separated by space: A
+Enter vertex: D
+Enter adjacent vertices separated by space: B
+Enter vertex: E
+Enter adjacent vertices separated by space: B
+Enter starting vertex: A
+DFS Traversal: A B D E C 
