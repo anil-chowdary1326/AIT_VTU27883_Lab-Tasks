@@ -64,3 +64,6 @@ root = Node("Root", children=[branch_left, branch_right])
 # Maximizing player starts at the root
 optimal_value = minimax(root, depth=3, is_maximizing_player=True)
 print(f"The optimal value at the Root node is: {optimal_value}")
+
+Output:
+The optimal value at the Root node is: 12
