@@ -25,3 +25,18 @@ while queue:
         if neighbour not in visited:
             visited.add(neighbour)
             queue.append(neighbour)
+Output:
+
+Enter number of vertices: 5
+Enter vertex: A
+Enter ajacent vertices separated by space: B C
+Enter vertex: B
+Enter ajacent vertices separated by space: A D E
+Enter vertex: C
+Enter ajacent vertices separated by space: A
+Enter vertex: D
+Enter ajacent vertices separated by space: B
+Enter vertex: E
+Enter ajacent vertices separated by space: B
+Enter starting vertex: A
+BFS Traversal: A B C D E 
